@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Teste</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="main.css">
 </head>
-
 
 <body>
     <header>
         <div class="container">
-            <img src="https://cms-assets.unrealengine.com/AVzjeqAbLRKi3W5jq0CAvz/qiFQiyH6TiuMdOIA5yZJ"
-                alt="unrealengine">
+            <a href="">
+                <img src="https://cms-assets.unrealengine.com/AVzjeqAbLRKi3W5jq0CAvz/qiFQiyH6TiuMdOIA5yZJ" alt="unrealengine">
+            </a>
             <nav>
                 <ul class="style-links">
                     <li>
@@ -26,36 +26,16 @@
             </nav>
         </div>
     </header>
-    <section class="video-section">
-        <div class="vid">
-            <video src="https://cdn2.unrealengine.com/unreal-engine-5-bigger-worlds-intro-1b3ac82d178e.mp4" autoplay
-                muted></video>
-        </div>
-    </section>
     <section>
         <div class="container">
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ad, magnam a voluptatum aliquid,
-                dolorem deserunt deleniti in saepe labore itaque laudantium maxime repudiandae est? Modi ad qui aliquam!
-                Pariatur!
-            </p>
+            <video src="https://cdn2.unrealengine.com/unreal-engine-5-bigger-worlds-intro-1b3ac82d178e.mp4" autoplay loop></video>
         </div>
     </section>
     <footer>
         <div class="container">
-            &copy; Site Teste - Todos os direitos reservados
+            &copy; Todos os diretos reservados - Unreal Engine
         </div>
     </footer>
-    <script>
-        window.addEventListener('scroll', function () {
-            const videoSection = document.querySelector('.video-section');
-            if (window.scrollY > 0) {
-                document.body.classList.add('scrolled');
-            } else {
-                document.body.classList.remove('scrolled');
-            }
-        });
-    </script>
 </body>
 
 </html>
